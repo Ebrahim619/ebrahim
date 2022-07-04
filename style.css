@@ -1,3 +1,50 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+
 .orang-color{
     color:orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 3.5%;
+}
+.half-width p{
+    width: 85%;
+    font-weight:600;
+    margin-bottom: 40px;
+    
+
+}
+.half-width img{
+    width: 80%;
+
+}
+.half-width .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color:#fff;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 40px;
+   
+}
+
+.top-banner{
+   
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
